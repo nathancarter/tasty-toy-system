@@ -1,0 +1,107 @@
+<html>
+	<head>
+		<link href='./main.css' rel='stylesheet'/>
+		<script src='./main.js' language='javascript' type='module'></script>
+		<script src='./help.js' language='javascript' type='module'></script>
+	</head>
+	<body>
+		<h1>Tasty Toy System</h1>
+		<div id='gameboard'></div>
+		<div id='builder'>
+			<div id='title'>What if...</div>
+			<div id='expression'></div>
+			<div id='buttons'>
+				<p>
+					<span id='addtree' title="Add a tree to the emoji sequence"></span>
+					<span id='addbasket' title="Add a basket to the emoji sequence"></span>
+					<span id='addpie' title="Add a pie to the emoji sequence"></span>
+					<span id='addapple' title="Add an apple to the emoji sequence"></span>
+					<span id='addcherry' title="Add a cherry to the emoji sequence"></span>
+					<span id='addstrawberry' title="Add a strawberry to the emoji sequence"></span>
+				</p>
+				<p>
+					<span id='builderback' title="Delete the last emoji added"></span>
+					<span id='builderok' title="Add this sequence to the game board"></span>
+					<span id='buildercancel' title="Cancel and return to the game board"></span>
+				</p>
+			</div>
+		</div>
+		<div id='helptext'>
+			<div id='helpcontent'></div>
+			<div><span id='helpok' title="Close help"></span></div>
+		</div>
+		<div id='controls'>
+			<div class='control'>
+				<span class='control-title'>What if...</span>
+				<span class='control-buttons'>
+					<span id='whatif' title="Add a new what-if line to the game board"></span>
+				</span>
+				<span class='help'>
+					<span id='helpwhatif' title="Get help on the what-if action"></span>
+				</span>
+			</div>
+			<div class='control'>
+				<span class='control-title'>Forage</span>
+				<span class='control-buttons'>
+					<span id='forageapple' title="Forage for an apple tree"></span>
+					<span id='foragecherry' title="Forage for a cherry tree"></span>
+					<span id='foragestrawberry' title="Forage for a strawberry tree"></span>
+				</span>
+				<span class='help'>
+					<span id='helpforage' title="Get help on the forage action"></span>
+				</span>
+			</div>
+			<div class='control'>
+				<span class='control-title'>Harvest</span>
+				<span class='control-buttons'>
+					<select id='harvest1' title="Choose the first fruit to harvest"></select>
+					<select id='harvest2' title="Choose the second fruit to harvest"></select>
+					<select id='harvest3' title="Choose the third fruit to harvest"></select>
+					<span id='harvest' title="Harvest the selected fruits"></span>
+				</span>
+				<span class='help'>
+					<span id='helpharvest' title="Get help on the harvest action"></span>
+				</span>
+			</div>
+			<div class='control'>
+				<span class='control-title'>Whoops</span>
+				<span class='control-buttons'>
+					<select id='whoops1' title="Choose which tree to bonk into"></select>
+					<select id='whoops2' title="Choose which basket to carry"></select>
+					<span id='whoops' title="Bonk into a tree and spill your basket"></span>
+				</span>
+				<span class='help'>
+					<span id='helpwhoops' title="Get help on the whoops action"></span>
+				</span>
+			</div>
+			<div class='control'>
+				<span class='control-title'>Bake</span>
+				<span class='control-buttons'>
+					<select id='bakechoice' title="Choose which basket to bake into a pie"></select>
+					<span id='bake' title="Bake the pie"></span>
+				</span>
+				<span class='help'>
+					<span id='helpbake' title="Get help on the bake action"></span>
+				</span>
+			</div>
+			<div class='control'>
+				<span class='control-title'>Claim</span>
+				<span class='control-buttons'>
+					<span id='claim' title="Claim the reward for your legendary work"></span>
+				</span>
+				<span class='help'>
+					<span id='helpclaim' title="Get help on the claim action"></span>
+				</span>
+			</div>
+			<div class='control'>
+				<span class='control-title'>Undo</span>
+				<span class='control-buttons'>
+					<span id='undo' title="Erase the last line on the game board"></span>
+				</span>
+				<span class='help'>
+					<span id='helpundo' title="Get help on the undo action"></span>
+				</span>
+			</div>
+		</div>
+	</body>
+</html>

@@ -194,7 +194,7 @@ const finalSubproof = () => {
 	for ( let i = lastIndex ; i >= 0 ; i-- )
 		if ( gameState[i].indent < lastLine.indent )
 			return [ i + 1, lastIndex ]
-	if ( gameState[i].indent == 1 && lastLine.indent == 1 )
+	if ( gameState[0].indent == 1 && lastLine.indent == 1 )
 		return [ 0, lastIndex ]
 }
 

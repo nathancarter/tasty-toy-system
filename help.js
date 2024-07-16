@@ -165,7 +165,7 @@ const helpTexts = {
 		${emoji.trophy}</p>
 		<p>Unfortunately, when I hover my mouse over the ${emoji.trophy}
 		button, it's always been unusable, because I've never managed to start
-		a subproof with a fruit pie and the turn it back into the right fruit
+		a subproof with a fruit pie and then turn it back into the right fruit
 		basket.  Oh well.  Maybe you'll do it some day.</p>
 	`,
 	undo : `
